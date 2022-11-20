@@ -1,0 +1,60 @@
+.about-me {
+  padding: 50px 0;
+  background: linear-gradient(0deg, #000 35%, rgb(2, 32, 28), rgb(8, 85, 75), rgb(112, 156, 154));
+	position: relative;
+	max-width: 1920px;
+	margin: 0 auto;
+}
+
+.first-card {
+	font-family: raleway_m;
+	display: flex;
+  flex-flow: column wrap;
+	align-items: center;
+	justify-content: start;
+	text-align: center;
+  text-shadow: 2px 3px 3px black, 2px 3px 3px black;
+  z-index: 4;
+}
+
+.first-card__title {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.first-card__subtitle {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.card-wrapper {
+	display: flex;
+	flex-flow: row nowrap;
+  justify-content: space-around;
+  padding: 0 100px;
+  margin: 0 auto;
+  gap: 0 25vh;
+}
+
+
+.second-card__img {
+  max-width: 350px;
+  min-height: 200px;
+	border: none;
+  border-radius: 30px;
+	box-shadow: 0 0 40px 25px rgba(3, 2, 2, 1);
+}
+
+.third-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 2px 3px 3px black, 2px 3px 3px black;
+}
+
+.third-card__title {
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
